@@ -18,12 +18,12 @@ class PageController extends Controller
 
     public function news($city = null)
     {
-        return view('pages.news', compact('city'));
+        return view('pages.news');
     }
 
     public function about($city = null)
     {
 
-        return view('pages.about', compact('city'));
+        return view('pages.about');
     }
 }
